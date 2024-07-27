@@ -38,4 +38,4 @@ jobs:
       run: |
         pytest
     - name: Test report
-      run: coverage report
+      run: pytest --cov-report
